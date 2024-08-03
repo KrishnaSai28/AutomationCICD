@@ -30,7 +30,7 @@ public class EndToEndTestCase2 extends BaseClass{
 	public void saucedemo(HashMap<String,String> datas) throws IOException
 	{
 		//Elements
-//comment
+//comments
 		
 		ProductCatalouge products=page.loginApplication(datas.get("name"),datas.get("pass"));
 		List<WebElement> productsList=products.getProductList();
